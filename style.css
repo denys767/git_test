@@ -1,7 +1,9 @@
 html {
     font-family: "Poppins";
 }
-
+.body {
+    margin: 0;
+}
 .title {
     margin: 70px;
     font-family: 'Poppins';
