@@ -1,0 +1,55 @@
+.title {
+    margin: 70px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: rgba(34, 52, 61, 0.8);
+}
+
+.title span {
+    color: #80C4D3;
+}
+
+.blog {
+    display: flex;
+    text-align: left;
+    max-width: 300px;
+    font-family: 'Poppins';
+    gap: 70px;
+    margin: 70px;
+}
+
+.blog-wrapper a {
+    background: url("./images/Vector\ \(3\).png");
+    width: 30px;
+    height: 23.33px;
+    display: block;
+}
+
+.blog-wrapper p {
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.blog-wrapper h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.button {
+    font-family: 'Poppins';
+    background: #80C4D3;
+    border-radius: 5px;
+    padding: 20px 30px;
+    text-decoration: none;
+    color: aliceblue;
+    margin: 70px;
+}
