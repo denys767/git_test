@@ -1,7 +1,7 @@
 html {
     font-family: "Poppins";
 }
-.body {
+body {
     margin: 0;
 }
 .title {
@@ -58,6 +58,7 @@ html {
     text-decoration: none;
     color: aliceblue;
     margin: 70px;
+    font-weight: 700;
 }
 
 .footer {
@@ -65,7 +66,7 @@ html {
     width: 100%;
     background: #80C4D3;
     margin-top: 70px;
-    height: 373px;
+    height: 500px;
     left: 1152px;
     top: 891px;
 
@@ -79,6 +80,15 @@ html {
     padding: 50px;
 }
 
+.footer h3 {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    opacity: 0.5;
+}
+
 .footer img {
     display: block;
     margin-left: auto;
@@ -86,6 +96,15 @@ html {
 }
 
 .footer-links {
+    margin-top: 50px;
+    padding: 30px;
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+}
+
+.footer-social-links {
+    margin-top: 42.04px;
     padding: 30px;
     justify-content: center;
     display: flex;
@@ -94,4 +113,46 @@ html {
 
 .footer-links a {
     color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 21px;
+    /* identical to box height, or 105% */
+    letter-spacing: -0.02em;
 }
+
+.footer-social-links a {
+    display: block;  
+}
+
+.icon1 {
+    background: url("./images/social/Facebook.png");
+    width: 20px;
+    height: 19.92px;
+}
+
+.icon2 {
+    background: url("./images/social/Twitter.png");
+    width: 20.92px;
+    height: 17px;
+}
+
+.icon3 {
+    background: url("./images/social/Instagram.png");
+    width: 20px;
+    height: 20px;
+}
+
+.icon4 {
+    background: url("./images/social/Viber.png");
+    width: 19.9px;
+    height: 20px;
+}
+
+.icon5 {
+    background: url("./images/social/Telegram.png");
+    width: 18.02px;
+    height: 15.12px;
+}
+
+
